@@ -1,3 +1,6 @@
+#note: no matter what i tried i couldnt get it to run passed line 21 wihtout getting "FileNotFoundError: [Errno 2] no such file or directrory"
+#will come back later to try and fix this. 
+
 # Objective 1: Import modules os and csv
 
 import os
@@ -22,7 +25,7 @@ initial_profit = 0
 
 # Open the CSV using the set path PyBankcsv
 
-with open(PyBankcsv, newline='') as csvfile:
+with open(PyBankcsv, newline=' ') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
      # Conducting the ask
