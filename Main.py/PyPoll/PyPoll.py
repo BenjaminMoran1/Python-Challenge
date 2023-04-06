@@ -1,7 +1,7 @@
-#note: no matter what i tried i couldnt get it to run passed line 22 wihtout getting "FileNotFoundError: [Errno 2] no such file or directrory"
-#will come back later to try and fix this. 
+# Note: no matter what i tried i couldnt get it to run passed line 22 wihtout getting "FileNotFoundError: [Errno 2] no such file or directrory"
+# Will come back later to try and fix this. 
 
-#works when run in interactive window
+# Works when run in interactive window
 
 # Objective 1: Import modules os and csv. Importing numpy in order to use the unique function
 import os
