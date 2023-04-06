@@ -1,4 +1,4 @@
-# note: no matter what i tried i couldnt get it to run passed line 21 wihtout getting "FileNotFoundError: [Errno 2] no such file or directrory"
+# note: no matter what i tried i couldnt get it to run passed line 30 wihtout getting "FileNotFoundError: [Errno 2] no such file or directrory"
 # will come back later to try and fix this. 
 
 # new note: works when run in interactive window
