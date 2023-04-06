@@ -4,6 +4,7 @@ Had some help from the TA, Kyle Lintala with the "no file directory" error
 
 looked up functions for help with assignment:
 https://www.idtech.com/blog/what-is-n-in-python#:~:text=%5Cn%20Definition%20for%20Python,in%20print%20statements%20or%20strings.
+
 https://flexiple.com/python/python-new-line/
 
 deleted Python_HW folder as it didnt fit the file name for the assignment.
