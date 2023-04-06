@@ -1,5 +1,6 @@
 #Background
-
+didnt get the "average change" corerect
+didnt get the "election results correct"
 Had some help from the TA, Kyle Lintala with the "no file directory" error
 
 looked up functions for help with assignment:
