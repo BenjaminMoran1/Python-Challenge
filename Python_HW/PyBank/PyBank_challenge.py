@@ -27,7 +27,7 @@ initial_profit = 0
 
 # Open the CSV using the set path PyBankcsv
 
-with open(PyBankcsv, newline=' ') as csvfile:
+with open(PyBankcsv, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
      # Conducting the ask
