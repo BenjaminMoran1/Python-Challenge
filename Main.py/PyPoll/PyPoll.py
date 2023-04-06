@@ -1,4 +1,4 @@
-# Note: no matter what i tried i couldnt get it to run passed line 22 wihtout getting "FileNotFoundError: [Errno 2] no such file or directrory"
+# Note: no matter what i tried i couldnt get it to run passed line 24 wihtout getting "FileNotFoundError: [Errno 2] no such file or directrory"
 # Will come back later to try and fix this. 
 
 # Works when run in interactive window
@@ -61,7 +61,7 @@ with open('election_results.txt', 'w') as text:
     text.write("Election Results")
     text.write("---------------------------------------")
     text.write("Total Vote: " + str(count) + "")
-    text.write("---------------------------------------\n")
+    text.write("---------------------------------------")
     for i in range(len(set(unique_candidate))):
         text.write(unique_candidate[i] + ": " + str(vote_percent[i]) +"% (" + str(vote_count[i]) + ")")
     text.write("---------------------------------------")
