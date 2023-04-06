@@ -6,6 +6,8 @@ looked up functions for help with assignment:
 https://www.idtech.com/blog/what-is-n-in-python#:~:text=%5Cn%20Definition%20for%20Python,in%20print%20statements%20or%20strings.
 https://flexiple.com/python/python-new-line/
 
+deleted Python_HW folder as it didnt fit the file name for the assignment.
+
 
 It's time to put away the Excel sheet and enter the world of programming with Python. In this assignment, you'll use the concepts you've learned to complete two Python challenges, PyBank and PyPoll. Both tasks present a real-world situation where your newly developed Python scripting skills come in handy.
 
