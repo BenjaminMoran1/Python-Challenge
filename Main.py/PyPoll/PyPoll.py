@@ -25,11 +25,11 @@ with open(PyPollcsv, newline="") as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
     # Conduct the ask
-    for row in csvreader:
+    for i in csvreader:
         # Count the total number of votes
         count = count + 1
         # Set the candidate names to candidatelist
-        candidatelist.append(row[2])
+        candidatelist.append(i[2])
         # Create a set from the candidatelist to get the unique candidate names
     for x in set(candidatelist):
         unique_candidate.append(x)
