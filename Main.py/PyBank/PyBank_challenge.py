@@ -31,19 +31,19 @@ with open(PyBankcsv, newline='') as csvfile:
     csvreader = csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
      # Conducting the ask
-    for row in csvreader:    
+    for i in csvreader:    
       # Use count to count the number months in this dataset
       count = count + 1 
 
       # Will need it when collecting the greatest increase and decrease in profits
-      date.append(row[0])
+      date.append(i[0])
 
       # Append the profit information & calculate the total profit
-      profit.append(row[1])
-      total_profit = total_profit + int(row[1])
+      profit.append(i[1])
+      total_profit = total_profit + int(i[1])
 
       #Calculate the average change in profits from month to month. Then calulate the average change in profits
-      final_profit = int(row[1])
+      final_profit = int(i[1])
       monthly_change_profits = final_profit - initial_profit
 
       #Store these monthly changes in a list
