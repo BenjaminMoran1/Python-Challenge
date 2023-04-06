@@ -58,12 +58,12 @@ print("-------------------------")
 # Print to a text file: election_results.txt
 
 with open('election_results.txt', 'w') as text:
-    text.write("Election Results\n")
-    text.write("---------------------------------------\n")
-    text.write("Total Vote: " + str(count) + "\n")
+    text.write("Election Results")
+    text.write("---------------------------------------")
+    text.write("Total Vote: " + str(count) + "")
     text.write("---------------------------------------\n")
     for i in range(len(set(unique_candidate))):
-        text.write(unique_candidate[i] + ": " + str(vote_percent[i]) +"% (" + str(vote_count[i]) + ")\n")
-    text.write("---------------------------------------\n")
-    text.write("The winner is: " + winner + "\n")
-    text.write("---------------------------------------\n")
+        text.write(unique_candidate[i] + ": " + str(vote_percent[i]) +"% (" + str(vote_count[i]) + ")")
+    text.write("---------------------------------------")
+    text.write("The winner is: " + winner + "")
+    text.write("---------------------------------------")
