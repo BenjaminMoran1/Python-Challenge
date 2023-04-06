@@ -8,7 +8,6 @@ https://flexiple.com/python/python-new-line/
 
 deleted Python_HW folder as it didnt fit the file name for the assignment.
 
-thought changing "for row in csvreader" would change the output, changed to "for i"
 
 #Background
 
